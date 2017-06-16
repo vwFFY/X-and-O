@@ -1,8 +1,12 @@
 import java.util.Scanner;
+import java.util.concurrent.TimeUnit;
 
 public class MainClass {
 	
 	public static void main(String[] args){
+		
+
+		System.out.println("Done!\n\n");
 		
 		Scanner input = new Scanner(System.in);
 		String p1;

@@ -93,7 +93,7 @@ public class Board {
 		}
 		
 		if(board[0][0].type.equals("X") || board[0][0].type.equals("O")){
-			if(board[0][0].type.equals(board[1][1].type)  && board[0][0].type.equals(board[1][1].type) ){
+			if(board[0][0].type.equals(board[1][1].type)  && board[0][0].type.equals(board[2][2].type) ){
 				if(board[0][0].type.equals("X")){
 					this.gameState = -1;
 					System.out.println(this.current+" has won the game!");
